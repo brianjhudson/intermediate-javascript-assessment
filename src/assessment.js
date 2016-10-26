@@ -1,4 +1,5 @@
 // #1  ###################
+
 // # Scope
 // Given the following function
 // ```
