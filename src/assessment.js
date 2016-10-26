@@ -54,10 +54,10 @@ var foo;
 function async() {
   var deferred = $q.defer();
 
-//   setTimeout(function(foo, deferred) {
-//     foo = "bar";
-//     deferred.resolve(foo);
-//   }, 1000);
+  setTimeout(function() {
+    foo = "bar";
+    deferred.resolve(foo);
+  }, 1000);
 
   return deferred.promise;
 }
